@@ -14,7 +14,7 @@ pip isntall scrapy
 ```
 
 
-after Cloning the project, cd to fightcards/fightcards/spiders. Then, from the Command Lines, run:
+after Cloning the project, cd to fighterSpider/fighterSpider/spiders. Then, from the Command Lines, run:
 
 ```bash
 scrapy runspider fightersSpider.py
@@ -26,6 +26,25 @@ scrapy runspider fightersSpider.py -o fighters.csv -t csv
 ```
 
 and that's it!
+
+## Items collected
+```python
+name = Field()
+record = Field()
+height = Field()
+weight = Field()
+reach = Field()
+stance = Field()
+DoB = Field() # date of birth
+SLpM = Field() # strike landed per 
+strAcc = Field() # strike accuracy in percentage
+SApM = Field() # strike absorbed per 
+strDef = Field() # strikes defence
+tdAvg = Field() # takedown average
+tdAcc = Field() # take down accuracy/success in percentage
+tdDef = Field() # take down defense
+subAvg = Field() # submission average
+```
 
 
 ## Challenges
