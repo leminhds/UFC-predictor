@@ -1,8 +1,7 @@
 # Scraping UFC fighters statistic
 
-#todo: expain what the heck is this thing
+This spider go through the website http://www.ufcstats.com/statistics/events/completed and scrape out specific match statistic of the matches in different events 
 
-#todo: explain what data did we scrape
 
 ## Getting started
 
