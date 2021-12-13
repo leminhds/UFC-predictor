@@ -1,8 +1,6 @@
 # Scraping UFC fighters statistic
 
-#todo: expain what the heck is this thing
-
-#todo: explain what data did we scrape
+This spider go through the website http://www.ufcstats.com/statistics/fighters to scrape out the detailed data of each fighter in the UFC
 
 ## Getting started
 
